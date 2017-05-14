@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		nav{
+			float: left;
+			overflow: hidden;
+		}
+			a{
+				float: left;
+				text-decoration: none;
+				padding:0 35px;
+				font:20px/50px "黑体";
+				background: green;
+				margin-right:2px;
+				color: #fff;
+				transform: skew(-45deg);
+			}
+			span{
+				display: block;
+				transform: skew(45deg);
+			}
+			a:hover{
+				background: yellow;
+				color: #000;
+			}
+			nav a:first-child{
+				margin-left:-24px;
+			}
+			nav a:last-child{
+				margin-right:-24px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<a href="#">
+				<span>首页</span>
+			</a>
+			<a href="#">
+				<span>特殊产品</span>
+			</a>
+			<a href="#">
+				<span>关于我们</span>
+			</a>
+			<a href="#">
+				<span>联系我们</span>
+			</a>
+		</nav>
+	</body>
+</html>
