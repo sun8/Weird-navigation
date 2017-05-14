@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>怪异导航1</title>
+		<style>
+			nav{
+				float: left;
+				overflow: hidden;
+			}
+			a{
+				float: left;
+				padding: 0 30px;
+				font: 20px/50px  "微软雅黑";
+				color: #0084BB;
+				background-color: pink;
+				text-decoration: none;
+				margin-right: 3px;
+				transform: skew(-30deg);
+			}
+			span{
+				display: block;
+				transform: skew(30deg);
+			}
+			//.frist{
+				
+			}
+			a:first-child{
+				margin-left: -20px;
+			}
+			a:last-child{
+				margin-right: -20px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<a href="#" class="frist">
+				<span>首页</span>
+			</a>
+			<a href="#">
+				<span>特殊产品</span>
+			</a>
+			<a href="#">
+				<span>关于我们</span>
+			</a>
+			<a href="#">
+				<span>联系我们</span>
+			</a>
+		</nav>
+	</body>
+</html>
